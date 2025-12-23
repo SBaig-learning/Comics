@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laila’s Take</title>
+  <meta name="description" content="A colorful comics feed by Laila." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">✨</div>
+      <div class="brandText">
+        <div class="siteTitle">Laila’s Take</div>
+        <div class="siteTagline">Colorful comics about life, learning, and everything in-between.</div>
+      </div>
+    </div>
+
+    <div class="topbarRight">
+      <a class="btn ghost" href="#latest">Latest</a>
+      <a class="btn" id="followBtn" href="#" rel="noopener">Follow</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="heroCard">
+        <h1>Welcome 👋</h1>
+        <p>
+          New comics drop here first. Tap a tag to filter. Share a comic page link anytime.
+        </p>
+
+        <div class="toolbar">
+          <label class="field">
+            <span>Filter by tag</span>
+            <select id="tagSelect" aria-label="Filter by tag">
+              <option value="all">All</option>
+            </select>
+          </label>
+
+          <label class="field grow">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Try: school, funny, math…" />
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest" class="feedHeader">
+      <h2>Comics</h2>
+      <div class="smallNote" id="countNote"></div>
+    </section>
+
+    <section id="feed" class="feed" aria-live="polite"></section>
+
+    <footer class="footer">
+      <div class="footerCard">
+        <div class="footerTitle">Laila’s Take</div>
+        <div class="footerSub">Built on GitHub Pages · <span id="year"></span></div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
