@@ -1,17 +1,5 @@
-body {
-  margin: 0;
-  background: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
-.homepage {
-  width: 100%;
-}
-
 .hero-image {
   width: 100vw;
-  max-height: 100vh;
-  object-fit: contain;
+  height: auto;
   display: block;
 }
