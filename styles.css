@@ -3,16 +3,15 @@ body {
   background: #ffffff;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .homepage {
-  max-width: 1200px;
   width: 100%;
 }
 
 .hero-image {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  max-height: 100vh;
+  object-fit: contain;
   display: block;
 }
