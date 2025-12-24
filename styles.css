@@ -1,5 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: white;
+}
+
+body {
+  overflow-x: hidden; /* prevents accidental horizontal scroll */
+}
+
+.homepage {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .hero-image {
-  width: 100vw;
+  display: block;     /* removes tiny inline gaps */
+  width: 100vw;       /* full viewport width */
   height: auto;
-  display: block;
+  margin: 0;
+  padding: 0;
 }
