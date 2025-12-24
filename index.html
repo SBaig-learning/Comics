@@ -1,102 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Laila’s Take</title>
-  <meta name="description" content="Laila’s Take — a clean, friendly comics site." />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <title>Re-engaging Learners</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-  <!-- Top bar (simple, no buttons) -->
-  <header class="topbar">
-    <div class="brand">
-      <div class="logo">🖍️</div>
-      <div class="brandText">
-        <div class="siteTitle">Laila’s Take</div>
-        <div class="siteTagline">Small comics about school & growing up</div>
-      </div>
-    </div>
-  </header>
-
-  <main class="wrap">
-
-    <!-- Clean series band -->
-    <section class="seriesBand">
-      <div class="seriesInner">
-
-        <!-- Series avatar (emoji placeholder) -->
-        <div class="seriesLeft">
-          <div class="seriesAvatar" aria-hidden="true">🙂</div>
-        </div>
-
-        <!-- Series text only -->
-        <div class="seriesCenter">
-          <div class="seriesGenrePill">Comedy • School Life</div>
-
-          <h1 class="seriesTitle">Laila’s Take</h1>
-
-          <div class="seriesByline">
-            by <span class="seriesCreator">Laila</span>
-          </div>
-
-          <div class="seriesBlurb">
-            Short comics about everyday moments, quiet thoughts, and learning how to be yourself.
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Main characters (ONLY TWO) -->
-    <section class="characterRow">
-      <h2 class="characterTitle">Main Characters</h2>
-
-      <div class="characterGrid">
-
-        <!-- Character 1 -->
-        <div class="characterCard">
-          <div class="characterAvatar" aria-hidden="true">🙂</div>
-          <div class="characterName">Laila</div>
-          <div class="characterTag">Thoughtful narrator</div>
-        </div>
-
-        <!-- Character 2 -->
-        <div class="characterCard">
-          <div class="characterAvatar" aria-hidden="true">😄</div>
-          <div class="characterName">Zara</div>
-          <div class="characterTag">Best friend</div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Comics feed will live here later -->
-    <section class="feed" style="margin-top: 18px;">
-      <!-- intentionally empty for now -->
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footerCard">
-        <div class="footerTitle">Laila’s Take</div>
-        <div class="footerSub">© <span id="year"></span></div>
-      </div>
-    </footer>
-
+  <main class="homepage">
+    <img 
+      src="images/title.png" 
+      alt="The Daily Struggles of a Witch Among Muggles"
+      class="hero-image"
+    />
   </main>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-
 </body>
 </html>
