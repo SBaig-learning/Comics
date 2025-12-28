@@ -23,6 +23,14 @@ body {
   padding: 0;
 }
 
+.title-container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  max-width: none;
+}
+
+
 .title-container img {
   width: 100%;
   height: auto;
